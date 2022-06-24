@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-banner {
+    width: 100vw;
+    height: 20vh;
+    background-image: url(Ragnarokimages/bannerfundo.jpg);
+}
+
+
+.top-banner .logo {
+    position: absolute; 
+    margin-top: 1%;
+    margin-left: 6%;
+    /*border: 4px solid red;*/
+    width: 16%;
+    height: 16%;
+}
+
+.top-banner .characterdoram {
+    position: absolute; 
+    margin-left: 45%; 
+    /*border: 4px solid red;*/
+    width: 25%;
+    height: 20%;
+}
+
+
+.navbuttons {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 350px;
+}
+
+.home {
+    /*position: absolute;
+    margin-left: 20%;*/
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.home:hover{
+    -webkit-transition: scale(1.5);
+    transform: scale(1.5);
+}
+.forum {
+    /*position: absolute;
+    margin-left: 35%;*/
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.forum:hover{
+    -webkit-transition: scale(1.5);
+    transform: scale(1.5);
+}
+
+.historia {
+   /*position: absolute;
+    margin-left: 50%;*/
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size:  clamp(1em, 1em + 1vw, 1.5em);
+    transition: all 0.5s;
+    cursor: pointer;
+    
+}
+.historia:hover{
+    -webkit-transition: scale(1.5);
+    transform: scale(1.5);
+}
+
+.cartas {
+    /*position: absolute;
+    margin-left: 65%;*/
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size:  clamp(1em, 1em + 1vw, 1.5em);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.cartas:hover{
+    -webkit-transition: scale(1.5);
+    transform: scale(1.5);
+}
+
+.title {
+    font-size: 50px;
+}
+
+.title2 {
+    font-size: 20px;
+    
+}
+
+.mid-body {
+    box-shadow: inset 0 0 3em rgb(177, 177, 177);
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.mid-body .img-mid{
+    margin-left: 23%;
+    width: 50%;
+    height: 60%;
+}
+
+
+.bottom-credits {
+    display: flex;
+    flex-direction: row;
+    
+    width: 100vw;
+    height: 10vh;
+}
+
+.mike {
+    margin-top: 1%;
+    margin-left: 10%;
+    font-size: 100%;
+}
+
+.direito {
+    margin-top: 1%;
+    margin-left: 40%;
+    font-size: 100%;
+}
+
+.ano {
+    margin-top: 1%;
+    margin-left: 1%;
+    font-size: 96%;
+}
